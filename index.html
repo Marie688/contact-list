@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Lista de contactos de Mariety">
+    <meta name="author" content="Mariety Vazquez">
+    <meta name="viewport" content="width=device-width">
+    <title>List contact</title>
+	 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+      <table id="miTabla">
+	<thead>
+		<tr>
+      <td>Id</td>
+			<td>Nombre</td>
+			<td>Apellidos</td>
+			<td>Teléfono</td>
+      <td>Ubicación (ciudad, dirección) </td>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+ 
+<p>
+	<form>
+    <label>Id:</label> <input type="text" id="nombre">
+		<label>Nombre:</label> <input type="text" id="id">
+		<label>Apellidos:</label> <input type="text" id="apellidos">
+		<label>Teléfono:</label> <input type="text" id="telefono">
+    <label>Ubicación:</label> <input type="text" id="ubicacion">
+		<p>
+			<input type="button" onclick="agregarValores();" value="Agregar">
+		</p>
+	</form>
+</p>
+  <script src="script.js"></script>
     
 </body>
 <script src="script.js"></script>
